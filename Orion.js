@@ -1,6 +1,9 @@
 const bomber = require("bomber-api");
 const inquirer = require("inquirer");
+const { clear } = require("console");
 const { exit } = require("process");
+
+clear();
 
 console.log("________        .__               ");
 console.log("\\_____  \\_______|__| ____   ____  ");
