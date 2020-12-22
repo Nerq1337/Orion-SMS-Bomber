@@ -39,7 +39,7 @@ call(async function () {
 			message: "Number Of Repeats: ",
 			validate: function (value) {
 				var valid = !isNaN(parseFloat(value));
-				return valid || "Please Enter The Number...";
+				return valid || "Please Enter a Number...";
 			},
 			filter: function (input) {
 				if (!isNaN(parseFloat(input))) {
