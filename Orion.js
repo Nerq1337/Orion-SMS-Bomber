@@ -1,7 +1,6 @@
 const bomber = require("bomber-api");
 const inquirer = require("inquirer");
 const { exit } = require("process");
-const keypress = require("keypress");
 
 console.log("________        .__               ");
 console.log("\\_____  \\_______|__| ____   ____  ");
